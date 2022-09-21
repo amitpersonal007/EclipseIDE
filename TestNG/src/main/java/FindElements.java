@@ -54,6 +54,7 @@ public class FindElements {
 				
 			}else {
 				System.out.println("NP");
+				System.out.println("NP");
 			}
 			
 		}
