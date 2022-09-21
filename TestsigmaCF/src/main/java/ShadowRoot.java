@@ -14,8 +14,7 @@ public class ShadowRoot extends TestsigmaCustomFunctions{
         TestStepResult result= new TestStepResult();
         
         //document.querySelector("body > downloads-manager").shadowRoot.querySelector("#frb0").shadowRoot.querySelector("#file-link").firstChild.nodeValue
-      
-        
+    
             JavascriptExecutor jse=(JavascriptExecutor)driver;
             String select=  (String) jse.executeScript(Path);
             
