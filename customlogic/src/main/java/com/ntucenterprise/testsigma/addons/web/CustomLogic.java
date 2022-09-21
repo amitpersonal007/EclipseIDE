@@ -86,6 +86,7 @@ public class CustomLogic extends WebAction {
               //Thread.sleep(2000);
           }
       }
+      logger.info(output);
       System.out.println(output);
       
    
