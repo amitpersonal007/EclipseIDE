@@ -18,9 +18,9 @@ public class CanvasTrim {
 		WebDriverManager.chromedriver().setup();
 	    driver= new ChromeDriver();
 	    
-	    driver.get("https://www.orangehrm.com/");
-	    TakesScreenshot scrShot =((TakesScreenshot)driver);
-	    File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+	    driver.get("https://rccsentinelnew-qa.azurewebsites.net");
+//	    TakesScreenshot scrShot =((TakesScreenshot)driver);
+//	    File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 
         
     
