@@ -37,7 +37,7 @@ public class NumPadEvent extends AndroidAction {
 	   
    }else {
 	   result=com.testsigma.sdk.Result.FAILED;
-	   logger.debug("NO SUCH ELEMENT FOUND");
+	   logger.debug("NO SUCH ELEMENT FOUND ON THE PAGE");
    }
    
    try{
